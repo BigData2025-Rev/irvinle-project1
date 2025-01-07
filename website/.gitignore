@@ -1,0 +1,128 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+.eggs/
+dist/
+build/
+develop-eggs/
+parts/
+eggs/
+.env
+lib64/
+lib/
+sdist/
+*.egg-info/
+.pytest_cache/
+*.whl
+*.tar.gz
+
+# Installer logs
+pip-log.txt
+pip-delete-this.txt
+.tox/
+.coverage
+*.mo
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+
+# Translations
+*.mo
+*.pot
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+instance/
+
+# Flask specific
+instance/
+*.sqlite
+
+# Sensitive information (important!)
+*.pem
+*.key
+*.p12
+id_rsa
+id_rsa.pub
+*.env
+config.py  # If it contains sensitive info, otherwise consider tracking it
+secrets.py # If it contains sensitive info, otherwise consider tracking it
+.flaskenv
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE and Editor files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.bak
+*.tmp
+*.user
+*.ipr
+*.iws
+*.vssscc
+*.vspscc
+[Tt]est[Rr]esult*
+*.orig
+*.iml
+*.DS_Store
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*.cache
+*.out
+
+# Python virtual environments (redundant, but good to have)
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+
+# Ignore local configuration files that might contain secrets
+config.local.py
+.env.local
+parameters.yml.dist
+parameters.yml
+secrets.yml
+secrets.yml.dist
+*.ini
+*.json
+*.yaml
+
+# Ignore local development databases
+*.sqlite
+*.sqlite3
+*.db
+*.mdf
+*.ldf
+
+# Ignore documentation build output (if applicable)
+/docs/_build/
+
+# Ignore coverage reports
+/coverage/
+*.lcov
+
+# Ignore test results
+/test-results/
